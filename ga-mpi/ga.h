@@ -148,7 +148,7 @@ one copy of the genome type you want to use.
 
 // Make sure that we get the configuration into each of the galib components
 // that will be used.
-#include "ga-mpi/gaconfig.h"
+#include "gaconfig.h"
 
 // These are the headers for all of the genetic algorithm classes.
 #include <ga-mpi/GASimpleGA.h>
