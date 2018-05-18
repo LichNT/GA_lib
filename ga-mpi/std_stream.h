@@ -9,7 +9,7 @@
 #if defined(GALIB_USE_STREAMS)
 #if defined(GALIB_USE_ANSI_HEADERS)
 
-#include <iostream>
+#include <iostream.h>
 #include <fstream>
 
 #else
