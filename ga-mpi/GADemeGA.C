@@ -6,8 +6,8 @@
 
    Souce file for the deme-based genetic algorithm object.
 ---------------------------------------------------------------------------- */
-#include <ga-mpi/garandom.h>
-#include <ga-mpi/GADemeGA.h>
+#include "garandom.h"
+#include "GADemeGA.h"
 
 
 GAParameterList&

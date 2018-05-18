@@ -29,8 +29,8 @@ out, please turn off the lights).
 #ifndef _ga_bin2dec_h_
 #define _ga_bin2dec_h_
 
-#include <ga-mpi/GA1DBinStrGenome.h>
-#include <ga-mpi/gabincvt.h>
+#include "GA1DBinStrGenome.h"
+#include "gabincvt.h"
 
 #ifdef max
 #undef max

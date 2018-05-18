@@ -11,8 +11,8 @@
 #ifndef _ga_tree_h_
 #define _ga_tree_h_
 
-#include <ga-mpi/GATree.h>
-#include <ga-mpi/GAGenome.h>
+#include "GATree.h"
+#include "GAGenome.h"
 
 
 /* ----------------------------------------------------------------------------
@@ -68,7 +68,7 @@ public:
 };
 
 #ifdef GALIB_USE_BORLAND_INST
-#include <ga-mpi/GATreeGenome.C>
+#include "GATreeGenome.C"
 #endif
 
 #endif

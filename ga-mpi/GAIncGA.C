@@ -7,8 +7,8 @@
 
   Source file for the incremental genetic algorithm object.
 ---------------------------------------------------------------------------- */
-#include <ga-mpi/GAIncGA.h>
-#include <ga-mpi/garandom.h>
+#include "GAIncGA.h"
+#include "garandom.h"
 
 
 GAParameterList&

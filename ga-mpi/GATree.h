@@ -10,8 +10,8 @@
 #ifndef _ga_treetmpl_h_
 #define _ga_treetmpl_h_
 
-#include <ga-mpi/gaerror.h>
-#include <ga-mpi/GATreeBASE.h>
+#include "gaerror.h"
+#include "GATreeBASE.h"
 
 /* ----------------------------------------------------------------------------
  GATree
@@ -229,7 +229,7 @@ private:
 
 
 #ifdef GALIB_USE_BORLAND_INST
-#include <ga-mpi/GATree.C>
+#include "GATree.C"
 #endif
 
 #endif

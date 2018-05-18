@@ -11,8 +11,8 @@
 #ifndef _ga_list_h_
 #define _ga_list_h_
 
-#include <ga-mpi/GAList.h>
-#include <ga-mpi/GAGenome.h>
+#include "GAList.h"
+#include "GAGenome.h"
 
 
 /* ----------------------------------------------------------------------------
@@ -65,7 +65,7 @@ public:
 };
 
 #ifdef GALIB_USE_BORLAND_INST
-#include <ga-mpi/GAListGenome.C>
+#include "GAListGenome.C"
 #endif
 
 #endif

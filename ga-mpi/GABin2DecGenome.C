@@ -16,8 +16,8 @@ information).
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include <ga-mpi/gaerror.h>
-#include <ga-mpi/GABin2DecGenome.h>
+#include "gaerror.h"
+#include "GABin2DecGenome.h"
 
 
 /* ----------------------------------------------------------------------------

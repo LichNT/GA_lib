@@ -9,9 +9,9 @@
 ---------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <string.h>
-#include <ga-mpi/GABaseGA.h>
-#include <ga-mpi/garandom.h>
-#include <ga-mpi/gaversion.h>	// gets the RCS string in for ident purposes
+#include "GABaseGA.h"
+#include "garandom.h"
+#include "gaversion.h>	// gets the RCS string in for ident purpose"
 
 
 //#define GA_DEBUG

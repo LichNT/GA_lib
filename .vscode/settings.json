@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.vue": "vue",
+    "gasstatega.h": "c",
+    "garandom.h": "c",
+    "garealgenome.c": "cpp",
+    "ga1darraygenome.c": "cpp",
+    "gaallele.c": "cpp",
+    "galistgenome.c": "cpp",
+    "galist.c": "cpp",
+    "gaerror.h": "c",
+    "ga2darraygenome.c": "cpp",
+    "gabasega.h": "c",
+    "gatree.c": "cpp"
+  }
+}

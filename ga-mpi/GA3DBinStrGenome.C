@@ -12,10 +12,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include <ga-mpi/gaerror.h>
-#include <ga-mpi/garandom.h>
-#include <ga-mpi/GA3DBinStrGenome.h>
-#include <ga-mpi/GAMask.h>
+#include "gaerror.h"
+#include "garandom.h"
+#include "GA3DBinStrGenome.h"
+#include "GAMask.h"
 
 
 /* ----------------------------------------------------------------------------

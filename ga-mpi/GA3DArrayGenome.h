@@ -12,9 +12,9 @@
 #ifndef _ga_array3_h_
 #define _ga_array3_h_
 
-#include <ga-mpi/GAArray.h>
-#include <ga-mpi/GAGenome.h>
-#include <ga-mpi/GAAllele.h>
+#include "GAArray.h"
+#include "GAGenome.h"
+#include "GAAllele.h"
 
 
 /* ----------------------------------------------------------------------------
@@ -157,7 +157,7 @@ protected:
 
 
 #ifdef GALIB_USE_BORLAND_INST
-#include <ga-mpi/GA3DArrayGenome.C>
+#include "GA3DArrayGenome.C"
 #endif
 
 #endif

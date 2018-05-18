@@ -15,11 +15,11 @@ objects that call us do the test themselves.  I'll leave the redundancy for
 now.
 ---------------------------------------------------------------------------- */
 #include <math.h>
-#include <ga-mpi/gaerror.h>
-#include <ga-mpi/GAScaling.h>
-#include <ga-mpi/GAGenome.h>
-#include <ga-mpi/GAPopulation.h>
-#include <ga-mpi/GABaseGA.h>
+#include "gaerror.h"
+#include "GAScaling.h"
+#include "GAGenome.h"
+#include "GAPopulation.h"
+#include "GABaseGA.h"
 
 
 float gaDefLinearScalingMultiplier   = 1.2;

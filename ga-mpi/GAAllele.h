@@ -200,7 +200,7 @@ operator>> (STD_ISTREAM & is, GAAlleleSet<T> & arg)
 
 
 #ifdef GALIB_USE_BORLAND_INST
-#include <ga-mpi/GAAllele.C>
+#include "GAAllele.C"
 #endif
 
 #endif

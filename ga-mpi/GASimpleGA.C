@@ -7,8 +7,8 @@
 
   Source file for the simple genetic algorithm object.
 ---------------------------------------------------------------------------- */
-#include <ga-mpi/GASimpleGA.h>
-#include <ga-mpi/garandom.h>
+#include "GASimpleGA.h"
+#include "garandom.h"
 
 
 GAParameterList&

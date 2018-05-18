@@ -10,8 +10,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ga-mpi/gaerror.h>
-#include <ga-mpi/GABinStr.h>
+#include "gaerror.h"
+#include "GABinStr.h"
 
 
 /* ----------------------------------------------------------------------------

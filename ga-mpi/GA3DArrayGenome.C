@@ -14,9 +14,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ga-mpi/garandom.h>
-#include <ga-mpi/GA3DArrayGenome.h>
-#include <ga-mpi/GAMask.h>
+#include "garandom.h"
+#include "GA3DArrayGenome.h"
+#include "GAMask.h"
 
 
 /* ----------------------------------------------------------------------------

@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <ga-mpi/GAListGenome.h>
-#include <ga-mpi/GAMask.h>
-#include <ga-mpi/garandom.h>
+#include "GAListGenome.h"
+#include "GAMask.h"
+#include "garandom.h"
 
 template <class T> int 
 GAListIsHole(const GAListGenome<T>&, const GAListGenome<T>&, int, int, int);

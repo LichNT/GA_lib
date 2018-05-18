@@ -15,7 +15,7 @@
 #ifndef _ga_listtmpl_C_
 #define _ga_listtmpl_C_
 
-#include <ga-mpi/GAList.h>
+#include "GAList.h"
 
 extern GANodeBASE * _GAListTraverse(unsigned int index, unsigned int & cur,
 				    GANodeBASE * node);
