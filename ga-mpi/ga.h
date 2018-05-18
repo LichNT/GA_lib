@@ -151,24 +151,23 @@ one copy of the genome type you want to use.
 #include "gaconfig.h"
 
 // These are the headers for all of the genetic algorithm classes.
-#include <ga-mpi/GASimpleGA.h>
-#include <ga-mpi/GASStateGA.h>
-#include <ga-mpi/GAIncGA.h>
-#include <ga-mpi/GADemeGA.h>
-#include <ga-mpi/GADCrowdingGA.h>
+#include <GASimpleGA.h>
+#include <GASStateGA.h>
+#include <GAIncGA.h>
+#include <GADemeGA.h>
+#include <GADCrowdingGA.h>
 
-// Here we include the headers for all of the various genome types.
-#include <ga-mpi/GA1DBinStrGenome.h>
-#include <ga-mpi/GA2DBinStrGenome.h>
-#include <ga-mpi/GA3DBinStrGenome.h>
-#include <ga-mpi/GABin2DecGenome.h>
+#include <GA1DBinStrGenome.h>
+#include <GA2DBinStrGenome.h>
+#include <GA3DBinStrGenome.h>
+#include <GABin2DecGenome.h>
 
 #ifndef GALIB_USE_NO_TEMPLATES
-#include <ga-mpi/GA1DArrayGenome.h>
-#include <ga-mpi/GA2DArrayGenome.h>
-#include <ga-mpi/GA3DArrayGenome.h>
-#include <ga-mpi/GAListGenome.h>
-#include <ga-mpi/GATreeGenome.h>
+#include <GA1DArrayGenome.h>
+#include <GA2DArrayGenome.h>
+#include <GA3DArrayGenome.h>
+#include <GAListGenome.h>
+#include <GATreeGenome.h>
 
 // We do *not* include the headers for template specializations.  This prevents
 // unnecessary instantiations of template objects which causes grief to some
