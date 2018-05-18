@@ -11,9 +11,9 @@
 #include <stdio.h>
 #include <limits.h>
 #include <string.h>
-#include <ga-mpi/gaconfig.h>
-#include <ga-mpi/gaerror.h>
-#include <ga-mpi/gabincvt.h>
+#include "gaconfig.h"
+#include "gaerror.h"
+#include "gabincvt.h"
 
 
 // These numbers are machine-specific and are a function of the word length of

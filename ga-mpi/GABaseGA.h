@@ -10,12 +10,12 @@
 #ifndef _ga_gabase_h_
 #define _ga_gabase_h_
 
-#include <ga-mpi/gaconfig.h>
-#include <ga-mpi/gaid.h>
-#include <ga-mpi/GAParameter.h>
-#include <ga-mpi/GAStatistics.h>
-#include <ga-mpi/GAGenome.h>
-#include <ga-mpi/GAPopulation.h>
+#include "gaconfig.h"
+#include "gaid.h"
+#include "GAParameter.h"
+#include "GAStatistics.h"
+#include "GAGenome.h"
+#include "GAPopulation.h"
 
 // When specifying parameters for a GAlib object, you can use the fullname (the
 // name used in parameters data files) or the short name (the name typically 

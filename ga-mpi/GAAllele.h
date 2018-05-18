@@ -13,9 +13,9 @@ imply the specific implementation of the container class).
 #ifndef _ga_allele_h_
 #define _ga_allele_h_
 
-#include <ga-mpi/gaconfig.h>
-#include <ga-mpi/garandom.h>
-#include <ga-mpi/std_stream.h>
+#include "gaconfig.h"
+#include "garandom.h"
+#include "std_stream.h"
 
 class GAAllele {
 public:

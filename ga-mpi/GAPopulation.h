@@ -12,12 +12,12 @@ track of the fitness statistics for the genomes in the population.
 #ifndef _ga_population_h_
 #define _ga_population_h_
 
-#include <ga-mpi/gaconfig.h>
-#include <ga-mpi/gaid.h>
-#include <ga-mpi/GASelector.h>
-#include <ga-mpi/GAScaling.h>
-#include <ga-mpi/GAEvalData.h>
-#include <ga-mpi/GAGenome.h>
+#include "gaconfig.h"
+#include "gaid.h"
+#include "GASelector.h"
+#include "GAScaling.h"
+#include "GAEvalData.h"
+#include "GAGenome.h"
 
 #ifdef max
 #undef max
