@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <ga-mpi/ga.h>
+#include "ga-mpi/ga.h"
 #include <ga-mpi/std_stream.h>
 #include "mpi.h"
 
